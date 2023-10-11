@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scrolling Story</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Navigation bar -->
+	<div id="nav">
+		<!-- link to divs on the same page using their id names -->
+		<a href="#spring"><div class="nav-btn" id="first-page"></div></a>
+		<a href="#first-text"><div class="nav-btn" id="second-page"></div></a>
+		<a href="#cafe"><div class="nav-btn" id="third-page"></div></a>
+		<a href="#second-text"><div class="nav-btn" id="fourth-page"></div></a>
+        
+	</div>
+	<!-- 
+	Four full browser size sections:
+	1. Spring
+	2. Text section
+	3. Cafe
+	4. Text section
+	 -->
+	<div id="spring">
+		<!-- Content to display inside the spring div -->
+		<div id="flower-div">
+			<span id="flower-text">Pause. Breathe. Everything will be okay.</span>
+			<img id="flower" src="img/daisy.jpeg">
+		</div>
+	</div>
+	<div id="first-text" class="text-section">
+		<p class="text">Why are you so stressed? Why are you rushing till the point where you aren't even connected with your own self anymore, let alone with others? Life is a long game, and the true winners are the ones who endure the long run slowly and steadily. So stop. Breathe. Look around, and appreciate the small things that bring you guaranteed happiness. Read a book, stay out in the sun, stretch once in a while. </p>
+	</div>
+	<div id="cafe">
+		<!-- Content to display inside the cafe div -->
+		<div id="tea-div">
+			<img id="tea" src="img/tea.jpeg">
+			<span id="tea-text">take a moment to grab a cup of tea!</span>
+		</div>
+	</div>
+	<div id="second-text" class="text-section">
+		<p class="text">If you feel like you have lost purpose or direction in life like a hamster stuck in an endless wheel with no other option than to continue running, running, running, then have the courage to jump off from the cycle for a while and take a break. This isn't you giving up or feeling week, but knowing what's best for you and preparing yourself for what will come next. Grab a cup of tea and sit down at a cafe. 
+            Do some people-watching or just stare at the outside scenery, wherever it may be. Appreciate yourself, because only you can do that for yourself.
+		</p>
+	</div>
+	<!-- Cat div position is fixed on the bottom left corner of the web page -->
+	<!-- <div id="cat-div">
+		<span id="cat-text">Hello!</span>
+		<img id="cat" src="img/cat.png">
+	</div> -->
+</body>
+</html>
